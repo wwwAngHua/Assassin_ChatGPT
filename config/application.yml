@@ -1,0 +1,10 @@
+# OpneAI配置
+openai:
+  # 你的 OpenAI API KEY
+  key: YOUR_API_KEY
+  # model（可以使用以下配置）
+  model: text-davinci-003
+  # 值越小回答准确性越高
+  temperature: 0
+  # 貌似值越大，能回复的内容越多
+  max_tokens: 1024
