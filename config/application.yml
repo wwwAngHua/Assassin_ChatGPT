@@ -1,10 +1,12 @@
 # OpneAI配置
 openai:
   # 你的 OpenAI API KEY
-  key: YOUR_API_KEY
-  # model（可以使用以下配置）
+  key: sk-
+  # 语言模型（text-davinci-003是最完善的但也是最贵的，编程可以使用code-davinci-002）
   model: text-davinci-003
-  # 值越小回答准确性越高
+  # 值越小回答准确性越高（0-2之间）-> 0.8
   temperature: 0
-  # 貌似值越大，能回复的内容越多
-  max_tokens: 1024
+  # 最大令牌数，值越大，能回复的内容越多（具体查看官网）
+  max_tokens: 2048
+  # 最终用户唯一ID（可以使用自己邮箱代替）
+  user: wwwanghua@outlook.com
